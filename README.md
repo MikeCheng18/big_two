@@ -7,6 +7,9 @@ Reference :
 * Advance : https://www.jianshu.com/p/47a4979ef318
 
 ## setup.py
+```bash
+python -m pip install git+https://github.com/MikeCheng18/big_two.git
+```
 setuptools is a package built on top of distutils that allows developers to develop and distribute Python packages. It also offers functionality that makes dependency management easier.
 
 When you want to release a package, you normally need some metadata including the package name, version, dependencies, entry points, etc. and setuptools offers the functionality to do exactly this.

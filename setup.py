@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="bigtwo",
-    version="0.1.22",
+    version="0.1.23",
     packages=find_packages(include=["bigtwo", "bigtwo.*"]),
     description="Python tutorial",
     author="Mike",
